@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', sans-serif;
+    background: #fffbea;
+    color: #2b1700;
+}
+
+header h1, h3 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #ffcc00;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav a {
+  display: block;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: #2b1700;
+  font-weight: bold;
+}
+
+.side-nav a:hover {
+  text-decoration: underline;
+}
+
+.body-content {
+  margin-left: 220px;
+  padding: 2rem;
+}
